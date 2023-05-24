@@ -1,0 +1,95 @@
+.aaa{    background-color: aliceblue;
+    background-image: url(https://img.freepik.com/premium-vector/seamless-pattern-abstract-background-with-futuristic-style-use-business-cover-banner_7505-1820.jpg);
+    background-blend-mode: multiply;
+    
+}
+
+.quadrados{
+    margin-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 900px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    
+}
+
+.fundo{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    background-image: url(https://img.freepik.com/premium-vector/seamless-pattern-abstract-background-with-futuristic-style-use-business-cover-banner_7505-1820.jpg);
+    background-blend-mode:multiply;
+}
+.beck{
+    width: 50%;
+    height: 800px;
+    background-color: beige;
+    background-image: url(https://cdn.shopify.com/s/files/1/0533/2089/files/5-websites-to-download-free-subtle-textures-subtle.jpg?5724472906039650661);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20%;
+    border-style: dotted;
+    
+
+}
+.quadrado{
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: aqua;
+    width: 280px;
+    height: 50px;
+    border-style: dashed;
+
+    background-image: url(https://i.pinimg.com/originals/c0/86/4a/c0864a9fc47915c685e86df172c37b55.png);
+    background-blend-mode:hard-light;
+
+    border-radius: 10%;
+  
+
+}
+.quadrado:hover{
+    background-color: aqua;
+    width: 550px;
+    height: 160px;
+
+}
+
+
+.hovertext {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  
+  .hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 540px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: opacity 1s ease-in-out;
+    font-size: large;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+    margin-left: 5px;
+  }
+  
+  .hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  h1{
+    margin-left: 20px;
+    margin-top: 0px;
+  }
